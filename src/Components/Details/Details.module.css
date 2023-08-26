@@ -1,0 +1,18 @@
+.title{
+    font-size: 1.9rem !important;
+    font-weight: 900 !important;
+
+}
+
+
+.price{
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
+
+.btnCart{
+    font-weight: 800;
+    cursor: pointer;
+   
+}
+

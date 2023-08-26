@@ -1,0 +1,45 @@
+.bgCon{
+    background-color: #F8F8F8 !important;
+
+}
+.fiTitle{
+    font-weight: 500;
+}
+.inputs{
+    border: 0 none;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 14px;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #CBD3D9;
+}
+
+.textarea{
+        min-height: 160px;
+        border: 0 none;
+        border-radius: 6px;
+        resize: none;
+        padding: 15px;
+        font-size:14px;
+        background-color: #fff;
+        border: 1px solid #CBD3D9;
+        line-height: 1.5;
+        padding-left: 30px;
+        padding-top: 20px;
+        width: 80%;
+}
+
+.btnSend{
+    background-color: #3577f0 !important;
+    color: #CBD3D9;
+}
+
+.sen{
+    color: #777777;
+}
+
+.labels{
+    color: #777777;
+
+}

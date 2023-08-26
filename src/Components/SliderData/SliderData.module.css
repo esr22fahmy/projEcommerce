@@ -1,0 +1,37 @@
+.secSlider img {
+    width: 30px !important;
+    max-height:24px !important
+
+}
+
+.conItem {
+    border: 1px solid #f0f0f0;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 30px;
+    width: 10rem !important;
+  }
+  
+
+  .conItem a{
+    padding: 5px 10px;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  
+
+  @media(max-width:500px){
+    .conItem a{
+      padding: 5px 10px;
+   
+    }
+
+  
+  }
+
+  

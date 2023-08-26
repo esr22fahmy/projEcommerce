@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+
+.btn-outline-primary {
+
+  --bs-btn-active-bg: rgb(255, 108, 51);
+
+
+}
+
+ul {
+  list-style-type: none !important;
+
+}
+
+a{
+
+  text-decoration: none !important;
+}
+
+  
+  
+  .cat-title {
+    margin-top: 10px; 
+  }
+ 
+/* home */
+
+.carousel-inner{
+
+  border-radius: 8px !important;
+}
+
+/* cart */
+
+td{
+  vertical-align:middle !important;
+}
+
+.gg{
+  vertical-align:middle !important;
+
+}
+
+/* shop */
+
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.09); 
+}
+
+/* user */
+
+.modal{
+  max-height: 100%;
+}
+
+.login , .register{
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.login:hover ,
+.register:hover{
+  color:  #0d6efd;;
+}
+
