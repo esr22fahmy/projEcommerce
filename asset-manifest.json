@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/projEcommerce/static/css/main.a4f3aa26.css",
+    "main.js": "/projEcommerce/static/js/main.33335b69.js",
+    "static/js/787.750b04f3.chunk.js": "/projEcommerce/static/js/787.750b04f3.chunk.js",
+    "static/media/fa-solid-900.ttf": "/projEcommerce/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/projEcommerce/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/projEcommerce/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/pexels-photo-7679453.jpeg": "/projEcommerce/static/media/pexels-photo-7679453.2da185142d46fed2325c.jpeg",
+    "static/media/fa-brands-400.woff2": "/projEcommerce/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/about-01.png": "/projEcommerce/static/media/about-01.d4391a932bd748899894.png",
+    "static/media/apple-iphone-smartphone-desk.jpg": "/projEcommerce/static/media/apple-iphone-smartphone-desk.9e79b9b67bd229c6ad13.jpg",
+    "static/media/pexels-photo-7007191.jpeg": "/projEcommerce/static/media/pexels-photo-7007191.b72ce33a009f5bed9d9b.jpeg",
+    "static/media/fa-regular-400.ttf": "/projEcommerce/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/money.png": "/projEcommerce/static/media/money.07178465584f3aa3a470.png",
+    "static/media/pexels-photo-11519635.jpeg": "/projEcommerce/static/media/pexels-photo-11519635.eb048cb0f75dd5398631.jpeg",
+    "static/media/mobile-shopping.png": "/projEcommerce/static/media/mobile-shopping.b62b91811778694d46fe.png",
+    "static/media/shopping.png": "/projEcommerce/static/media/shopping.40d4ca658730afbccc67.png",
+    "static/media/male-clothes.png": "/projEcommerce/static/media/male-clothes.da1ae4b764cba8907c25.png",
+    "static/media/fa-regular-400.woff2": "/projEcommerce/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/ux.png": "/projEcommerce/static/media/ux.ffa3e0dd754dc923e50b.png",
+    "static/media/online-shopping.png": "/projEcommerce/static/media/online-shopping.e2d6dfb6159f014f6527.png",
+    "static/media/selling.png": "/projEcommerce/static/media/selling.a1b83cf6e60e85df50c8.png",
+    "static/media/campaign-bg3.png": "/projEcommerce/static/media/campaign-bg3.c508614ea556e533be65.png",
+    "static/media/fa-v4compatibility.ttf": "/projEcommerce/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/projEcommerce/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/projEcommerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/projEcommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/projEcommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/projEcommerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/projEcommerce/index.html",
+    "main.a4f3aa26.css.map": "/projEcommerce/static/css/main.a4f3aa26.css.map",
+    "main.33335b69.js.map": "/projEcommerce/static/js/main.33335b69.js.map",
+    "787.750b04f3.chunk.js.map": "/projEcommerce/static/js/787.750b04f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4f3aa26.css",
+    "static/js/main.33335b69.js"
+  ]
+}
