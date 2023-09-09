@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './Components/App/App';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import reportWebVitals from './reportWebVitals';
+import './index.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
