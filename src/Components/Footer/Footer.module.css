@@ -1,0 +1,103 @@
+.line{
+    background-color: #f0eded;
+    width: 80%;
+    height: 0.1px;
+    margin: auto;
+    
+}
+
+
+.imgLogo{
+    max-width: 100%;
+    height: 40% !important;
+}
+
+.address{
+    color: #777777;
+}
+
+.socialShare{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.socialShare a {
+    margin: 10px;
+    color: #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2px !important;
+    position: relative;
+    z-index: 1;
+
+}
+
+.socialShare a::after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-color: #ff497c !important;
+    transform: scale(0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    transition: 0.3s ; 
+  }
+
+  .socialShare a:hover::after {
+    transform: scale(1); 
+  }
+  .socialShare a:hover {
+    color: white;
+}
+
+.footerWidget{
+    margin-bottom: 40px;
+}
+
+.footerWidget h5{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    margin-bottom: 20px;
+}
+
+.linksWord{
+    padding-left: 0;
+}
+
+.linksWord li {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+
+}
+.linksWord a{
+
+    color: #777777 !important;
+    position:relative;
+
+}
+
+.linksWord li a::after{
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    opacity: 0; 
+    transition: .5s;
+}
+
+
+.linksWord a:hover::after {
+    width: 100%;
+    opacity: 1;
+    left: 0;
+}
+.linksWord a:hover{
+    color: #000000 !important;
+}

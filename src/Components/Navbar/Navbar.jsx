@@ -22,9 +22,9 @@ export default function NavbarObj() {
   return (
     <>
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light p-0 m-0">
+<nav className="navbar navbar-expand-lg navbar-light bg-light ">
   <div className="container  ">
-  <div className=" col-lg-1 col-md-3 col-sm-4 col-5 ">
+  <div className=" col-4 col-lg-1 col-md-3 col-sm-4 col-5 ">
         <Link to=""  className="logo logo-dark">
           <img className={`${styleNav.imgLogo}`} src={imgLogo} alt="Site Logo" />
         </Link>   
@@ -33,46 +33,39 @@ export default function NavbarObj() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="menu-item-has-children">
+      <ul className="smallSizeNav navbar-nav me-auto mb-2 mb-lg-0">
+      <li className={`${styleNav.menuItem}`}>
               <Link className={`${styleNav.Links}`} to="">
                 Home
               </Link>
             </li>
             <span className=" mx-3"></span>
 
-            <li className="">
-              <Link className={`${styleNav.Links}`} to="shop">
+            <li className={`${styleNav.menuItem}`}>
+              <Link className={`${styleNav.Links} `} to="shop">
                 Shop
               </Link>
             </li>
             <span className=" mx-3"></span>
 
-            {/* <li className="">
-              <Link className={`${styleNav.Links}`} to="about">
-                Pages
-              </Link>
-            </li>
-            <span className=" mx-3"></span> */}
+          
 
-
-            <li className="">
+            <li className={`${styleNav.menuItem}`}>
               <Link className={`${styleNav.Links}`} to="about">
                 About
               </Link>
             </li>
             <span className=" mx-3"></span>
 
-            <li className="">
+            <li className={`${styleNav.menuItem}`}>
               <Link className={`${styleNav.Links}`} to="contact">
                 Contact
               </Link>
             </li>
       </ul>
-      <ul className={`${styleNav.actionList} d-flex mb-lg-0`}>
+      <ul className={`${styleNav.actionList} row  mb-lg-0  `}>
 
-      {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0"> */}
-          <li className="">
+          <li className=" col-12 col-md-8 col-xl-8 ">
             <div className={`${styleNav.search}`}>
               <input
                 className={`${styleNav.inp}`}
@@ -88,13 +81,13 @@ export default function NavbarObj() {
             </div>
           </li>
          
-          <li className="wishlist mx-3">
+          <li className="wishlist mx-3 col-4 col-md-1 col-xl-1 d-flex  align-items-center ">
             <Link onClick={() => setShowModal(true)}>
             <i  className="fa-solid fa-user text-dark"></i>
             </Link>
          
           </li>
-          <li className="shopping-cart d-flex  align-items-center ms-2" >
+          <li className="shopping-cart d-flex  align-items-center ms-2 ms-xl-0 col-4 col-md-1 col-xl-1 " >
             <Link  to="/cart"    className="" style={{ position: "relative" }}>
               <i className="fa-solid fa-cart-shopping text-dark "></i>
               <div

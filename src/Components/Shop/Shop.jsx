@@ -35,12 +35,12 @@ const filteredItems = itemsData.filter((item) =>
 
       <div className=" container ">
 
-      <div className=" text-capitalize py-5 d-flex justify-content-center">
-      <button  className="btn  btn-outline-dark me-2"   onClick={fetchApiData}>all</button>
-      <button  className="btn  btn-outline-dark me-2" onClick={() => getSpecificClothes("men's clothing")} >men's clothing</button>
-      <button  className="btn  btn-outline-dark me-2" onClick={() => getSpecificClothes("women's clothing")} >woman's clothing</button>
-      <button  className="btn  btn-outline-dark me-2" onClick={() => getSpecificClothes("jewelery")} >jewelery</button>
-      <button  className="btn  btn-outline-dark "  onClick={() => getSpecificClothes("electronics")}>electronic</button>
+      <div className=" row text-capitalize py-5 d-flex justify-content-center">
+      <button  className="btn  btn-outline-dark col-3 col-md-2 me-2"   onClick={fetchApiData}>all</button>
+      <button  className="btn  btn-outline-dark col-3 col-md-2 me-2" onClick={() => getSpecificClothes("men's clothing")} >men's clothing</button>
+      <button  className="btn  btn-outline-dark col-3 col-md-2 me-2" onClick={() => getSpecificClothes("women's clothing")} >woman's clothing</button>
+      <button  className="btn  btn-outline-dark col-3 col-md-2 mt-2 mt-md-0 me-2" onClick={() => getSpecificClothes("jewelery")} >jewelery</button>
+      <button  className="btn  btn-outline-dark col-3 col-md-2 mt-2 mt-md-0"  onClick={() => getSpecificClothes("electronics")}>electronic</button>
 
 
 
@@ -51,8 +51,8 @@ const filteredItems = itemsData.filter((item) =>
             <div className="col-md-3 mb-4 "key={index}>
              <div className=" h-100 p-4 " >
               <img className="card-img-top w-100 mb-3  " height="200px" src={item.image} alt="Card image cap"/>
-              <div className="card-body">
-                <h5 className="card-title mb-0"> {item.title.substring(0,12)}...</h5>
+              <div className="card-body ">
+                <h5 className="card-title hightTitle mb-0"> {item.title.substring(0,12)}...</h5>
                 <p className=" fw-bold"> {item.price}</p>
                 <Link to={`/details/${item.id}`} className="btn btn-outline-primary">Buy Now</Link>
 

@@ -11,6 +11,8 @@ import { store } from '../Redux/store';
 import Cart from '../Cart/Cart';
 import User from '../User/User';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
+
 function App() {
 
   let routes = createHashRouter([
@@ -25,6 +27,7 @@ function App() {
        {path:"/details/:id", element: <Details /> },
        {path:"cart", element: <Cart/> },
        {path:"user", element: <User/> },
+       {path:"footer", element: <Footer/> },
 
        ]
 

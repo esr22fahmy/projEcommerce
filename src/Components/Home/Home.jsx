@@ -19,7 +19,9 @@ export default function Home() {
           id="carouselExampleIndicators"
           className="carousel slide  container   "
           data-bs-ride="carousel"
-          style={{ width: "80%" }}
+          // style={{ width: "80%" }}
+          style={{ width: "100%" }}
+
         >
           <div className="carousel-indicators ">
             <button
