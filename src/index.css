@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Cairo', sans-serif;
   overflow-x: hidden !important;
+
 }
 
 
@@ -87,3 +88,10 @@ td{
 }
 
 }
+
+/* cart.js */
+.totalItem{
+  color: #A749F9;
+  font-weight: 800 !important;
+  font-size: 1.5rem;
+  }

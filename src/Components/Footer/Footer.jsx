@@ -6,7 +6,7 @@ export default function Footer() {
   return (
 
     <section className={`${styleFooter.line} mt-3 `}>
-      <div className=' container '>
+      <div className=' container  '>
         <div className=' row '>
 
           <div className=' col-lg-3 col-sm-6 mt-3 '>

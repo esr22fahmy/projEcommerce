@@ -1,11 +1,14 @@
-import React ,{useState} from "react";
+import React ,{useEffect, useState} from "react";
 import { useSelector, useDispatch } from "react-redux";
 import styleCart from "./Carts.module.css"
 import { removeFromCart , updateCartItemCount , setProductToDelete } from "../Redux/counterSlice";
 
+
 export default function Cart() {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.counterAy7aga.cartItems);
+  const [total, setTotal] = useState(0);
+
 
     //  لتخزين الإجمالي لكل منتج
   const [subtotals, setSubtotals] = useState(
@@ -48,13 +51,28 @@ const handleIncrease = (index) => {
 
 
 const handleRemoveItem = (index) => {
+  const removedItemPrice = subtotals[index];
+
     
   // console.log(index)
   dispatch(removeFromCart(index)); //لإزالة المنتج 
   dispatch(updateCartItemCount()); // تحديث عدد العناصر في السلة
+  const newSubtotals = subtotals.filter((_, i) => i !== index);
 
+  setSubtotals(newSubtotals);
+
+  const newTotal = total - removedItemPrice;
+
+  setTotal(newTotal)
 
 };
+useEffect(() => {
+  const total = subtotals.reduce((acc, subtotal) => acc + subtotal, 0);
+  //  تحديث الإجمالي في حالة تغيير subtotals
+  // يتم ذلك عندما يتغير الكمية أو يتم حذف منتج
+  setTotal(total);
+}, [subtotals]);
+
   return (
 
 <div className=" mt-5">
@@ -74,6 +92,7 @@ const handleRemoveItem = (index) => {
                         <th scope="col" className="product-price">Price</th>
                         <th scope="col" className="product-quantity">Quantity</th>
                         <th scope="col" className="product-subtotal">Subtotal</th>
+                        
                     </tr>
                 </thead>
                 <tbody className={`${styleCart.test}  position-relative`}>
@@ -125,12 +144,23 @@ const handleRemoveItem = (index) => {
                         </td>
 
 
+                        
+
+
+
+
                   </tr>
+                  
 
                 ))}
                                           
            
                 </tbody>
+
+                <div className="  mt-5"> 
+                <h5 className="totalItem text-capitalize"> total : ${total.toFixed(2)}</h5>
+                        
+                        </div>
             </table>
         </div>
      
@@ -140,5 +170,4 @@ const handleRemoveItem = (index) => {
 
   );
 }
-
 
