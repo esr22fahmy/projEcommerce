@@ -65,8 +65,8 @@ export default function NavbarObj() {
       </ul>
       <ul className={`${styleNav.actionList} row  mb-lg-0  `}>
 
-          <li className=" col-12 col-md-8 col-xl-8 ">
-            <div className={`${styleNav.search}`}>
+          <li className={`${styleNav.conSearch} col-12 col-md-8 col-xl-8 `}>
+            <div className={`${styleNav.search} `}>
               <input
                 className={`${styleNav.inp}`}
                 type="search"
@@ -80,14 +80,15 @@ export default function NavbarObj() {
               <i className={`${styleNav.iconSearch}  fa fa-search `}></i>
             </div>
           </li>
-         
-          <li className="wishlist mx-3 col-4 col-md-1 col-xl-1 d-flex  align-items-center ">
-            <Link onClick={() => setShowModal(true)}>
+
+
+          <li className={`${styleNav.conSearch} col-12 col-md-4 col-xl-4  d-flex justify-content-center align-items-center `}>
+          <Link onClick={() => setShowModal(true)}>
             <i  className="fa-solid fa-user text-dark"></i>
             </Link>
-         
-          </li>
-          <li className="shopping-cart d-flex  align-items-center ms-2 ms-xl-0 col-4 col-md-1 col-xl-1 " >
+
+            <span className=" mx-2"></span>
+{/* ===== */}
             <Link  to="/cart"    className="" style={{ position: "relative" }}>
               <i className="fa-solid fa-cart-shopping text-dark "></i>
               <div
@@ -102,6 +103,8 @@ export default function NavbarObj() {
               </div>
             </Link>
           </li>
+         
+     
         </ul>
     </div>
   </div>
