@@ -77,7 +77,7 @@ export default function NavbarObj() {
                 maxLength="128"
                 placeholder="What are you looking for?"
               />
-              <i className={`${styleNav.iconSearch}  fa fa-search `}></i>
+              <i className={`${styleNav.iconSearch}  fa fa-search  ms-2 ms-md-0 ms-xl-0`}></i>
             </div>
           </li>
 
